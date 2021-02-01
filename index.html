@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Рогажинскас</title>
+	<meta name="description" content="Краткое описание страницы.">
+    <meta name="keywords" content="Ключевые слова страницы.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/base.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <script src="js/jquery-3.5.1.min.js"></script>
+	<style>
+        @font-face {
+            font-family: 'Golos';
+            src: url('fonts/Golos_Text_Regular.eot');
+            src: url('fonts/Golos_Text_Regular.eot?#iefix') format('embedded-opentype'),
+                url('fonts/Golos_Text_Regular.woff2') format('woff2'),
+                url('fonts/Golos_Text_Regular.woff') format('woff'),
+                url('fonts/Golos_Text_Regular.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: block;
+        }
+        @font-face {
+            font-family: 'Golos';
+            src: url('fonts/Golos_Text_Medium.eot');
+            src: url('fonts/Golos_Text_Medium.eot?#iefix') format('embedded-opentype'),
+                url('fonts/Golos_Text_Medium.woff2') format('woff2'),
+                url('fonts/Golos_Text_Medium.woff') format('woff'),
+                url('fonts/Golos_Text_Medium.ttf') format('truetype');
+            font-weight: 600;
+            font-style: normal;
+            font-display: block;
+        }
+        @font-face {
+            font-family: 'PFRegalDisplayPro';
+            src: url('fonts/PFRegalDisplayPro-Medium.woff2') format('woff2'),
+                url('fonts/PFRegalDisplayPro-Medium.woff') format('woff'),
+                url('fonts/PFRegalDisplayPro-Medium.ttf') format('truetype');
+            font-weight: 600;
+            font-display: block;
+        }
+        @font-face {
+            font-family: 'PFRegalDisplayPro';
+            src: url('fonts/PFRegalDisplayPro-MediumItalic.woff2') format('woff2'),
+                url('fonts/PFRegalDisplayPro-MediumItalic.woff') format('woff'),
+                url('fonts/PFRegalDisplayPro-MediumItalic.ttf') format('truetype');
+            font-weight: 600;
+            font-style: italic;
+            font-display: block;
+        }
+	</style>
+</head>
+<body>
+    <div class="block1">
+        <header id="header">
+            <div class="container-fluid">
+                <div class="header  animate__animated animate__fadeInDown" style="animation-duration: 2s;">
+                    <div class="logo">
+                        <p>Клиника доктора<br> 
+                        <span>Рогажинскас</p></span> 
+                    </div>
+                    <div class="nav">
+                        <div class="burger">
+                            <div class="burger_menu">
+                            </div>
+                            <span>Меню</span>
+                        </div>
+                       <ul>
+                           <li id="about"> О клинике</li>
+                           <li id="services">Услуги</li>
+                           <li id="before_after">До/После</li>
+                           <li id="price"> Цены</li>
+                           <li id="specialist"> Специалисты</li>
+                           <li id="news" > Новости</li>
+                           <li id="contacts">  Контакты</li>
+                       </ul>
+                    </div>
+                    <div class="info">
+                        <div class="text">
+                            <p>Новосибирск,<br> 
+                            <span>Красный проспект, 77/1</span></p>
+                        </div>
+                        <div class="number">
+                            <a href="tel:+73833633060">+7 (383) <span>363-30-60 </span> </a><br>
+                             <i><span>Ежедневно</span> 8:00-20:00 </i> 
+                        </div>
+                    </div>
+                </div>
+                <div class="block1_content">
+                    <div class="block1_content-title animate__animated animate__fadeInLeft" style="animation-duration: 2s;">
+                        Клиника доктора<br>
+                        Рогажинскас
+                    </div>
+                    <h1 class="animate__animated animate__fadeInLeft" style="animation-duration: 2s;">
+                        Пластическая<br> 
+                        хирургия <span>без шрамов<br> 
+                        и рубцов</span> 
+                    </h1>
+                    <div class="text">
+                        <p>Получите консультацию,<br> 
+                            не выходя из дома</p>
+                        <a class="animate__animated animate__zoomIn" style="animation-duration: 2s;" href=""><span>Получить консультацию</span></a> 
+                    </div>
+                    <div class="block1_form">
+                        <div class="item">
+                            <h4>25 000 + </h4>
+                            <p>успешных операций</p>
+                        </div>
+                        <div class="item">
+                            <h4>20 врачей </h4>
+                            <p>с опытом – от 15 лет </p>
+                        </div>
+                        <div class="item">
+                            <h4>10 лет</h4>
+                            <p>в индустрии<br>
+                            красоты и здоровья</p>
+                        </div>
+                        <div class="item">
+                            <h4>12</h4>
+                            <p>направлений<br>
+                            медицинских услуг</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="block2">
+        <div class="wrapper">
+            <div class="block2_head">
+                <h2>
+                    12 направлений медицины<br> 
+                    <span>для вашего здоровья</span> 
+                </h2>
+                <button>Открыть все услуги</button>
+                <div class="slick">
+                    1/<span>2</span>
+                </div>
+    
+            </div>
+            
+            <div class="block2_slider">
+                <div class="item">
+                    <img src="i/block2_slider2.jpg" alt="Инъекционное омоложение">
+                    <a class="text_slider2" href=""><span>Подробнее</span></a>
+                    <p>Инъекционное омоложение</p>
+                </div>
+                <div class="item">
+                    <img src="i/block2_slider1.jpg" alt="Лазерная хирургия">
+                    <a class="text_slider2" href=""><span>Подробнее</span></a>
+                    <p>Лазерная хирургия</p>
+                </div>
+                <div class="item">
+                    <img src="i/block2_slider3.jpg" alt="Лазерная косметология">
+                    <a class="text_slider2" href=""><span>Подробнее</span></a>
+                    <p>Лазерная косметология</p>
+                </div>
+                <div class="item">
+                    <img src="i/block2_slider4.jpg" alt="Лечебная косметология">
+                    <a class="text_slider2" href=""><span>Подробнее</span></a>
+                    <p>Лечебная косметология</p>
+                </div>
+                <div class="item">
+                    <img src="i/block2_slider5.jpg" alt="Пластическая хирургия">
+                    <a class="text_slider2" href=""><span>Подробнее</span></a>
+                    <p>Пластическая хирургия</p>
+                </div>
+                <div class="item">
+                    <img src="i/block2_slider6.jpg" alt="Стоматология">
+                    <a class="text_slider2" href=""><span>Подробнее</span></a>
+                    <p>Стоматология</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <div class="block3">
+        <div class="row">
+            <div class=" block3_img col-6">
+                <img src="i/block3_img.png" alt="" class="pers animate__animated animate__fadeInLeft wow" style="animation-duration: 2s;">
+            </div>
+            <div class=" block3_text col-6">
+                <div class="desc animate__animated animate__fadeInRight wow" style="animation-duration: 2s;">
+                    <h2>Первый в Новосибирске хирург, 
+                      <span>который применил методику 
+                        операций без шрамов</span> </h2>
+                    <div class="list-block">
+                        <ul>
+                            <li>33 года успешно <span>проводит <br>
+                                хирургические операции</span> </li>
+                            <li>Кандидат медицинских наук. 
+                                    <span>Специализируется в 7 медицинских областя</span> </li>
+                            <li>Получил 2 патента  <span>на коррекцию ушей</span> </li>
+                            <li>Разработал 2 авторских методики <span>по подтяжке 
+                                    ягодиц и лифтингу с применением лазера</span> </li>
+                        </ul>
+                    </div>
+                    <div class="sign-block row">
+                        <img src="i/block3_sign.png" alt="">
+                        <div class="sign-text">
+                            <p>Рогажинскас Петр Винцасович</p>
+                            <span>главный врач клиники</span>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block3_form animate__animated animate__fadeInDown wow" data-wow-delay=".5s">
+            <div class="row mainrow">
+                <div class="content col-6">
+                    <h2>Миссия клиники:<br> 
+                    <span> избавить от комплексов<br>
+                    без боли и осложнений</span>
+                    </h2>
+                    <div class="text">
+                        <p>Клиника доктора Рогажинскас названа в честь своего<br> основателя.  <span> Кандидат медицинских наук и главврач клиники<br> Петр Винцасович</span> уже 15 лет проводит уникальные пластические<br> операции без боли и швов <span>под специальной анестезией.</span>     
+                        </p>
+                        <p><span>При строгом соблюдении показаний, с использованием<br> новейших технологий пациенты кардинально меняют<br>
+                        свою внешность под присмотр профессиональной</span> команды<br>
+                        из 30 докторов.</p>
+                        <p>Клиника специализируется на пластической хирургии,<br>
+                        а кроме того, предоставляет услуги еще по 11 направлениям.<br> <span> Медцентр включает в себя современное отделение<br> ультразвуковой диагностики, лабораторную базу, стационар<br>
+                        с доступом к интернету и ТВ для комфортного лечения в стенах <br> клиники.</span></p> 
+                    </div>
+                    <div class="subtitle">
+                        Деятельность клиники<br>
+                        лицензирована
+                    </div>
+                    <a href="">Смотреть лицензии</a>
+                </div>
+                <div class="block3_form-img col-6">
+                    <img src="i/block2_woman.png" alt="Девушка доктор">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block4">
+        <div class="block4_text">
+            <h2>Дарим красоту 
+            <br><span>и восхищенные взгляды</span></h2>
+            <div class="block4_text-subtitle">Решим все проблемы со внешностью в одном месте</div>
+            <div class="row">
+                <button id="button1" class="active_button">Красивое Лицо</button>
+                <button id="button2">Идеальное Тело</button>
+            </div>
+        </div>
+        <div class="block4_form animate__animated animate__fadeInUp wow" data-wow-delay=".2s">
+            <div class="content">
+                <img id="block4_face" src="i/block4_face.png" alt="">
+                <img id="block4_body" src="i/block4_body.png" alt="">
+                <div class="icon">
+                    <img src="i/block4_icon.png" alt="">
+                </div>
+            </div>
+            <div class="sidebar">
+                <ul>
+                    <li><span id="blck4_1">Коррекция формы губ</span></li>
+                    <li><span id="blck4_2">Коррекция формы носа</span></li>
+                    <li><span id="blck4_3">Коррекция формы ушей</span></li>
+                    <li><span id="blck4_4">Пластика век</span></li>
+                    <li><span id="blck4_5">Пластика лица нитями</span></li>
+                    <li><span id="blck4_6">Подтяжка лица</span></li>
+                    <li><span id="blck4_7">Восстановление ресниц</span></li>
+                    <li><span id="blck4_8">Липофилинг</span></li>
+                    <li><span id="blck4_9">Очищение кожи</span></li>
+                    <li><span id="blck4_10">Поверхностное омоложение</span></li>
+                    <li><span id="blck4_11">Глубокое FT-омоложение</span></li>
+                    <li><span id="blck4_12">Лазерная шлифовка кожи</span></li>
+                    <li><span id="blck4_13">Лазерное лечение угревой сыпи</span></li>
+                    <li><span id="blck4_14">Лазерное удаление пигментных пятен</span></li>
+                    <li><span id="blck4_15">Лазерный пилинг</span></li>
+                </ul>
+                <ul>
+                    <li><span id="blck4_16">Увеличение груди</span></li>
+                    <li><span id="blck4_17">Уменьшение груди</span></li>
+                    <li><span id="blck4_18">Интимная пластика</span></li>
+                    <li><span id="blck4_19">Липосакция</span></li>
+                    <li><span id="blck4_20">Липофилинг</span></li>
+                    <li><span id="blck4_21">Пластика голеней</span></li>
+                    <li><span id="blck4_22">Пластика живота</span></li>
+                    <li><span id="blck4_23">Пластика ягодиц</span></li>
+                    <li><span id="blck4_24">Подтяжка груди</span></li>
+                    <li><span id="blck4_25">Пилинг</span></li>
+                    <li><span id="blck4_26">Лазерная эпиляция</span></li>
+                    <li><span id="blck4_27">Лазерное удаление пигментных пятен</span></li>
+                    <li><span id="blck4_28">Лазерное удаление сосудистых патологий</span></li>
+                    <li><span id="blck4_29">Удаление новообразований</span></li>
+                    <li><span id="blck4_30">Удаление татуировок</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="block5">
+        <div class="block5_content">
+            <div class="text row">
+                <h2>Сравните: как меняется<br>
+                  <span>женщина после процедуры</span>  
+                </h2>
+                <div class="slick">
+                    1/<span>2</span>
+                </div>
+            </div>
+            <div class="block5_slider">
+                <div class="item">
+                    <img src="i/block5_slider2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="i/block5_slider3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="i/block5_slider4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="i/block5_slider5.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="i/block5_slider1.jpg" alt="">
+                </div>
+            </div>
+            <div class="slider_text">
+                <div class="before">
+                    <div>До</div> 
+                </div>
+                <div class="after">
+                   <div>После</div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block6">
+        <h2>Спецпредложения
+          <span>каждый месяц</span>  
+        </h2>
+        <div class="block6_form ">
+            <div class="item animate__animated animate__fadeInDown wow" data-wow-delay="0s">
+                <h4>Маммопластика</h4>
+                <span>до <input type="text"></span>
+                <ul>
+                    <li>импланты</li>
+                    <li>анестезия</li>
+                    <li>компрессионное белье</li>
+                    <li>1 сутки пребывания</li>
+                    <li>питание</li>
+                    <li>медикаментозное обеспечение</li>
+                </ul>
+                <div class="price">
+                    <li><strike>205 000 рублей</strike></li>
+                    <li>165 000 рублей</li>
+                </div>
+                <button>Получить скидку</button>
+            </div>
+            <div class="item animate__animated animate__fadeInDown wow" data-wow-delay=".5s">
+                <h4>Программа<br> “Женское здоровье”</h4>
+                <span>до <input type="text"></span>
+                <ul>
+                    <li>прием гинеколога</li>
+                    <li>кольпоскопия</li>
+                    <li>гинекологическое УЗИ</li>
+                    <li>лабораторная диагностика (флора, цитология</li>
+                </ul>
+                <div class="price">
+                    <li><strike>4 000 рублей</strike></li>
+                    <li>3 150 рублей</li>
+                </div>
+                <button>Получить скидку</button>
+            </div>
+            <div class="item animate__animated animate__fadeInDown wow" data-wow-delay="1s">
+                <h4>Консультация уролога</h4>
+                <span>до <input type="text"></span>
+                <div class="text">
+                    <i>+10% скидка</i>
+                    <li>на последующие анализы и исследования</li>    
+                </div>
+                <div class="price">
+                    <li><strike>2 000 рублей</strike></li>
+                    <li>1 500 рублей</li>
+                </div>
+                <button>Получить скидку</button>
+            </div>
+            <div class="item animate__animated animate__fadeInDown wow" data-wow-delay="1.5s">
+                <h4>Круговая блефаропластика</h4>
+                <span>до <input type="text"></span>
+                <div class="price">
+                    <li><strike>95 000 рублей</strike></li>
+                    <li>65 000 рублей</li>
+                </div>
+                <button>Получить скидку</button>
+            </div>
+        </div>
+    </div>
+    <div class="block7">
+        <h2>Врачи с опытом<br> 
+           <span>– от 15 лет</span> 
+        </h2>
+        <div class="block7_slider">
+            <div class="big_slider">
+                <div class="item">
+                    <img src="i/block7_sliderB1.jpg" alt="">
+                    <div class="text">
+                        <p>Добряков Борис Борисович</p>
+                        <li>Доктор медицинских наук,<br> 
+                            врач - пластический хирург</li>
+                        <li>Стаж работы: <span>35 лет</span></li>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="i/block7_sliderB2.jpg" alt="">
+                    <div class="text">
+                        <p>Добряков Борис Борисович</p>
+                        <li>Доктор медицинских наук,<br> 
+                            врач - пластический хирург</li>
+                        <li>Стаж работы: <span>35 лет</span></li>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="i/block7_sliderB3.jpg" alt="">
+                    <div class="text">
+                        <p>Анастасьева Валентина Гурьевна</p>
+                        <li>Доктор медицинских наук,<br> 
+                            врач - пластический хирург</li>
+                        <li>Стаж работы: <span>35 лет</span></li>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="i/block7_sliderB4.jpg" alt="">
+                    <div class="text">
+                        <p>Кононова Ирина Владимировна</p>
+                        <li>Доктор медицинских наук,<br> 
+                            врач - пластический хирург</li>
+                        <li>Стаж работы: <span>35 лет</span></li>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="i/block7_sliderB5.jpg" alt="">
+                    <div class="text">
+                        <p>Добряков Борис Борисович</p>
+                        <li>Доктор медицинских наук,<br> 
+                            врач - пластический хирург</li>
+                        <li>Стаж работы: <span>35 лет</span></li>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="small_slider">
+                <div class="item">
+                    <img src="i/block7_sliderS4.jpg" alt="">
+                    <div class="text">
+                        <p>Добряков Борис<br> Борисович</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="i/block7_sliderS5.jpg" alt="">
+                    <div class="text">
+                        <p>Добряков Борис<br> Борисович</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="i/block7_sliderS1.jpg" alt="">
+                    <div class="text">
+                        <p>Анастасьева Валентина<br>Гурьевна</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="i/block7_sliderS2.jpg" alt="">
+                    <div class="text">
+                        <p>Кононова Ирина<br> Владимировна</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="i/block7_sliderS3.jpg" alt="">
+                    <div class="text">
+                        <p>Добряков Борис<br> Борисович</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="text">
+            <h2 class="animate__animated animate__fadeInLeft wow" style="animation-duration: 2s;" > <span>Запишитесь</span> <br> 
+                на первичную<br> 
+                консультацию
+            </h2>
+            <ul class="animate__animated animate__fadeInLeft wow" style="animation-duration: 2s;">
+                <li>Получите полную диагностику<br>
+                    <span> молочной железы.</span></li>
+                <li>Рекомендации <span>по подготовке<br>
+                    к процедуре.</span> </li>
+                <li>План лечения <span>с расчетом<br>
+                     стоимости.</span></li>
+            </ul>
+        </div>
+        <div class="form">
+            <div class="form_content animate__animated animate__zoomIn wow" style="animation-duration:2s;">
+                <h2>Оставьте заявку,</h2>
+                <p>и мы перезвоним вам и предложим<br>
+                    удобное время посещения
+                </p>
+                <li>Ваше имя</li>   
+                <input type="text" placeholder="Александр">
+                <li>Ваше номер</li>
+                <input class="footer_phone" type="text" placeholder="+7 ( 000 ) 000 - 00 - 00">
+                <button>Записаться на прием</button>
+                <div class="agreement-check lt animate-top">
+                    <input class="agreement" type="checkbox"  value="Согласие на обработку данных" name="Agreement">
+                    <label class="agreement-label" for="Agreement">
+                        <span class="check"></span>
+                        Я даю свое согласие на обработку персональных данных и соглашаюсь с <a href="#" target="_blank">политикой конфиденциальности</a>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
+<script src="js/lazyload.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick-1.8.1/slick/slick.js"></script>
+<script src="js/jquery.maskedinput.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
